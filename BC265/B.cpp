@@ -16,6 +16,13 @@ int main()
         std::cin >> X[i] >> Y[i];
     }
 
+    std::vector<long long> timeAdd = std::vector<long long>(N, 0);
+    for (int i = 0; i < M; i++)
+    {
+        timeAdd[X[i]] = Y[i];
+    }
+    
+
     long long j = 0;
     for (long long i = 0; i < N - 1; i++)
     {
@@ -25,17 +32,13 @@ int main()
             std::cout << "No" << std::endl;
             return 0;
         }
-        if (i + 2 == X[j])
+        if (i < N - 2)
         {
-            T += Y[j];
-            if (j < M - 1)
-            {
-                j++;
-            }
+            T += timeAdd[i + 2];
         }
     }
 
     std::cout << "Yes" << std::endl;
     return 0;
 }
-//部分正解
+//AC

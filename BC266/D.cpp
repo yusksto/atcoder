@@ -50,4 +50,4 @@ int func(int n, int t, int pos, std::vector<int>& T, std::vector<int>& X, std::v
 
 }
 */
-//途中
+//途中s

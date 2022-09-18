@@ -48,6 +48,8 @@
         "xutility": "cpp",
         "complex": "cpp",
         "sstream": "cpp",
-        "numbers": "cpp"
+        "numbers": "cpp",
+        "map": "cpp",
+        "xtree": "cpp"
     }
 }
