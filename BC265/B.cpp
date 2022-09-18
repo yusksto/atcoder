@@ -38,3 +38,4 @@ int main()
     std::cout << "Yes" << std::endl;
     return 0;
 }
+//部分正解

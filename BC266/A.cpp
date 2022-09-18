@@ -7,3 +7,4 @@ int main(){
     std::cout << str[(str.length() + 1) / 2 - 1] << std::endl;
     return 0;
 }
+//AC
